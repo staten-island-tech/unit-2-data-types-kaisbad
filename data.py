@@ -32,18 +32,39 @@ for i in values:
     print(i)
 
 print(values[0])
-print(values[6])
- """
+print(values[6]) """
+
 """ x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
- """
-day_of_week = input("what day is it? ")
+print(z) """
+
+""" day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
     print("correct")
 else:
-    print("incorrect")
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}")
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+x = input("give me a number")
+
+if x == ("1" & "3" & "5" & "7" & "9"):
+    print('odd')
+elif x == ("2"&"4"&"6"&"8"&"10"):
+    print('even') 
+
+
+
 
 
