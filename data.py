@@ -57,14 +57,39 @@ elif temp == 68:
 else:
     print('cold') """
 
-x = input("give me a number")
+#EVEN ODD
+""" x = input("give me a number")
 
-if x == ("1" & "3" & "5" & "7" & "9"):
+if x == "1":
     print('odd')
-elif x == ("2"&"4"&"6"&"8"&"10"):
+elif x == "2":
     print('even') 
+ """
 
 
+#Tip Calculator
+y = float(input("How much was you bill"))
+x = input("How was your service")
 
+total = y 
 
+if x == "bad":
+    print('0% tip')
+    total = total * 1.0
+    print(total)
+    
+elif x == "okay":
+    print('15% tip')
+    total = total * 1.15
+    print(total)
+
+elif x == "good":
+    print('20% tip')
+    total = total * 1.2
+    print(total)
+
+elif x == "great":
+    print('25% tip')
+    total = total * 1.25
+    print(total)
 
