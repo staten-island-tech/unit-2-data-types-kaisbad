@@ -58,17 +58,18 @@ else:
     print('cold') """
 
 #EVEN ODD
-""" x = input("give me a number")
+x = 0 
+x = float(input("give me a number"))
+if x% 2 == 0: 
+    print('even')
 
-if x == "1":
-    print('odd')
-elif x == "2":
-    print('even') 
- """
+else:
+    print('odd') 
+
 
 
 #Tip Calculator
-y = float(input("How much was you bill"))
+""" y = float(input("How much was you bill"))
 x = input("How was your service")
 
 total = y 
@@ -91,5 +92,5 @@ elif x == "good":
 elif x == "great":
     print('25% tip')
     total = total * 1.25
-    print(total)
+    print(total) """
 
