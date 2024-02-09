@@ -58,13 +58,13 @@ else:
     print('cold') """
 
 #EVEN ODD
-x = 0 
+""" x = 0 
 x = float(input("give me a number"))
 if x% 2 == 0: 
     print('even')
 
 else:
-    print('odd') 
+    print('odd')  """
 
 
 
@@ -93,4 +93,43 @@ elif x == "great":
     print('25% tip')
     total = total * 1.25
     print(total) """
+
+
+#Factor finder
+""" x = float(input("Give me a number"))
+y = float(input("Give me another number"))
+x == int(x)
+y ==int(y)
+factors = []
+
+for i in range(1,int(x/2)):
+    if x%i == 0:
+        if i not in factors: 
+            factors.append(i)
+        if x/i not in factors:
+            factors.append(int(x/i))
+
+
+for i in range(1,int(y/2)):
+    if y%i == 0:
+        if i not in factors: 
+            factors.append(i)
+        if y/i not in factors:
+            factors.append(int(y/i))
+
+
+for i in factors:
+    print(i) """
+
+import math
+from math import * 
+
+x = 
+number = gcd(123,23)
+print(f"{number}")
+
+
+
+
+
 
