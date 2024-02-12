@@ -97,11 +97,39 @@ elif x == "great":
 
 #Factor finder
 """ x = float(input("Give me a number"))
-y = float(input("Give me another number"))
 x == int(x)
-y ==int(y)
+
 factors = []
 
+for i in range(1,int(x/2)):
+    if x%i == 0:
+        if i not in factors: 
+            factors.append(i)
+        if x/i not in factors:
+            factors.append(int(x/i))
+
+for i in factors:
+    print(i) """
+
+#GCF (imported math)
+
+""" import math
+from math import * 
+
+x = int(input("give me a number"))
+y = int(input("give me another number"))
+
+number = gcd(x,y)
+print(f"{number}") """
+
+
+#GCF
+x = float(input("Give me a number"))
+y = float(input("Give me another number"))
+x == int(x)
+y == int(y)
+factors = []
+ 
 for i in range(1,int(x/2)):
     if x%i == 0:
         if i not in factors: 
@@ -119,17 +147,5 @@ for i in range(1,int(y/2)):
 
 
 for i in factors:
-    print(i) """
-
-import math
-from math import * 
-
-x = 
-number = gcd(123,23)
-print(f"{number}")
-
-
-
-
-
+    print(i)
 
