@@ -57,6 +57,7 @@ elif temp == 68:
 else:
     print('cold') """
 
+
 #EVEN ODD
 """ x = 0 
 x = float(input("give me a number"))
@@ -66,6 +67,11 @@ if x% 2 == 0:
 else:
     print('odd')  """
 
+
+#Word Counter
+""" x = input()
+numberletters = x.split( )
+print(len(numberletters)) """
 
 
 #Tip Calculator
@@ -129,7 +135,7 @@ y = float(input("Give me another number"))
 x == int(x)
 y == int(y)
 factors = []
- 
+
 for i in range(1,int(x/2)):
     if x%i == 0:
         if i not in factors: 
@@ -145,7 +151,11 @@ for i in range(1,int(y/2)):
         if y/i not in factors:
             factors.append(int(y/i))
 
+if 
+print(i)
 
 for i in factors:
     print(i)
+
+
 
