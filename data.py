@@ -130,32 +130,20 @@ print(f"{number}") """
 
 
 #GCF
-x = float(input("Give me a number"))
-y = float(input("Give me another number"))
-x == int(x)
-y == int(y)
-factors = []
+x = int(input("Give me a number"))
+y = int(input("Give me another number"))
+list_factors = []
+z = 1
 
-for i in range(1,int(x/2)):
-    if x%i == 0:
-        if i not in factors: 
-            factors.append(i)
-        if x/i not in factors:
-            factors.append(int(x/i))
-
-
-for i in range(1,int(y/2)):
-    if y%i == 0:
-        if i not in factors: 
-            factors.append(i)
-        if y/i not in factors:
-            factors.append(int(y/i))
-
-if 
-print(i)
-
-for i in factors:
-    print(i)
-
+def factor():
+    if x > y: 
+        z = x 
+    elif x < y:
+        z = y 
+    for i in range(1, z+1):
+        if x%i == 0 and y%i == 0:
+            list_factors.append(i)
+    print(max(list_factors))
+factor()
 
 
